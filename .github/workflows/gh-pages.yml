@@ -14,7 +14,7 @@ jobs:
       - name: Set Public Folder
         run: |
           mkdir .public
-          cp -r index.html .public
+          cp -r .\main\ .public
           mv .public public
 
       - name: Deploy 🚀
