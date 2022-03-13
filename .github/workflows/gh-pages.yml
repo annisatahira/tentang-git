@@ -14,7 +14,7 @@ jobs:
       - name: Set Public Folder
         run: |
           mkdir .public
-          cp -r .\main\ .public
+          cp -r main/* .public
           mv .public public
 
       - name: Deploy 🚀
